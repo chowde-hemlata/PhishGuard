@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b1120;
+    color: #f1f5f9;
+    min-height: 100vh;
+    padding: 30px 20px;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 55px;
+}
+
+header h1 {
+    color: #38bdf8;
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+header p {
+    color: #94a3b8;
+}
+
+main {
+    max-width: 850px;
+    margin: auto;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+.scanner,
+.results {
+    background: #172033;
+    border: 1px solid #334155;
+    border-radius: 15px;
+    padding: 35px;
+    margin-bottom: 30px;
+}
+
+.scanner h2,
+.results h2 {
+    color: #38bdf8;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    background: #0f172a;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #0284c7;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0369a1;
+}
+
+.score {
+    background: #0f172a;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.score h3 {
+    color: #94a3b8;
+    margin-bottom: 12px;
+}
+
+.score p {
+    font-size: 38px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.results h3 {
+    margin: 20px 0 12px;
+}
+
+.results ul {
+    padding-left: 25px;
+    line-height: 2;
+    color: #cbd5e1;
+}
+
+.error {
+    color: #f87171;
+    margin-top: 15px;
+}
+
+.disclaimer {
+    margin-top: 25px;
+    color: #94a3b8;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    color: #64748b;
+    padding: 30px;
+    margin-top: 30px;
+}
